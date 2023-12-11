@@ -3,7 +3,7 @@
     "description": "Tax setup module for Lightweight",
     "type": "magento2-module",
     "require": {
-        "magento/module-tax": "100.3.*"
+        "magento/module-tax": "100.4.*"
     },
     "authors": [
         {
