@@ -1,0 +1,23 @@
+{
+    "name": "lightweight/magento2.module.tax-setup",
+    "description": "Tax setup module for Lightweight",
+    "type": "magento2-module",
+    "require": {
+        "magento/module-tax": "100.3.*"
+    },
+    "authors": [
+        {
+            "name": "Axel Bildat",
+            "email": "axel.bildat@7thsense.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lightweight\\TaxSetup\\": ""
+        }
+    }
+}
